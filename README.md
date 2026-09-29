@@ -43,7 +43,7 @@ Strong positive correlation exists between `tenure` and `TotalCharges`, which ma
 `MonthlyCharges` and `TotalCharges` also show moderate positive correlation.
 `SeniorCitizen` has weak correlation with other features.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](Image/correlation_heatmap.png)
 
 ## Model Training
 ### Tuned XGBoost (with scale_pos_weight for class imbalance)
@@ -68,7 +68,7 @@ SHAP summary plot explains how each feature impacts the XGBoost churn prediction
 
 SHAP makes the black-box XGBoost model interpretable for non-technical stakeholders.
 
-![SHAP Summary Plot](images/shap_summary.png)
+![SHAP Summary Plot](Image/shap_summary.png)
 
 ## Model Evaluation
 ### XGBoost (Tuned + scale_pos_weight / Class Weight)
@@ -85,7 +85,7 @@ SHAP makes the black-box XGBoost model interpretable for non-technical stakehold
 > Precision = 0.51: Among all predicted churners, about half will actually leave.
 
 ### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](Image/Confusion_matrix.png)
 
 ## Conclusion & Business Recommendations
 Grid search was used to tune XGBoost hyperparameters. The tuned model achieved cross-validation ROC-AUC of 0.848 and test ROC-AUC of 0.842, showing good generalization and no heavy overfitting.
