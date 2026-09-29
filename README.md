@@ -18,6 +18,16 @@ Telco Customer Churn Dataset (Kaggle)
    - Random Forest
    - XGBoost
 5. Model Evaluation: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+   ## Model Evaluation
+### Performance Metrics
+| Metric       | Value |
+|--------------|-------|
+| Accuracy     | 0.81  |
+| Precision    | 0.68  |
+| Recall       | 0.57  |
+| F1-Score     | 0.62  |
+
+
 6. Conclusion & Business Recommendations
 
 ## 🛠️ Tech Stack
