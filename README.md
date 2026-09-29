@@ -32,3 +32,5 @@ Telco Customer Churn Dataset (Kaggle)
 1. Clone repo
 ```bash
 git clone https://github.com/iammehedee/Customer-Churn-Prediction.git
+![Confusion Matrix](images/confusion_matrix.png)
+
